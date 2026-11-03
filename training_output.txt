@@ -1,0 +1,25 @@
+5-fold cross-validation accuracy: 92.52% (+/- 2.01%)
+
+MODEL EVALUATION
+----------------
+Training examples: 235
+Testing examples:  59
+Accuracy: 93.22%
+
+Classification report:
+              precision    recall  f1-score   support
+
+    negative       1.00      0.79      0.88        19
+     neutral       1.00      1.00      1.00        20
+    positive       0.83      1.00      0.91        20
+
+    accuracy                           0.93        59
+   macro avg       0.94      0.93      0.93        59
+weighted avg       0.94      0.93      0.93        59
+
+Confusion matrix (labels: negative, neutral, positive):
+[[15  0  4]
+ [ 0 20  0]
+ [ 0  0 20]]
+
+Trained model saved to: sentiment_model.pkl
